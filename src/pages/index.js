@@ -11,7 +11,10 @@ import configs from "../../site-config"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={configs.app_keywords} />
+    <SEO
+      title={configs.site_name}
+      keywords={configs.app_keywords}
+    />
 
     <div
       className="imageWrapper"
@@ -269,14 +272,14 @@ export const query = graphql`
         }
       }
     }
-    appStore: file(relativePath: { eq: "appstore.png" }) {
+    appStore : file(relativePath: { eq: "appstore-fr.png" }) {
       childImageSharp {
         fixed(width: 220) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    playStore: file(relativePath: { eq: "playstore.png" }) {
+    playStore: file(relativePath: { eq: "playstore-fr.png" }) {
       childImageSharp {
         fixed(height: 75) {
           ...GatsbyImageSharpFixed

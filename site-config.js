@@ -1,27 +1,56 @@
-module.exports = {
-  // App Info
-  appstore_link         : "https://imedadel.me",                                  // Enter App Store URL.
-  playstore_link        : "https://imedadel.me",                                  // Enter Google Play Store URL.
-  google_analytics_ID   : "UA-47311644-5",                                        // Enter Google Analytics ID or ""
-  presskit_download_link: "https://imedadel.me",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-  video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
-  app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
-  path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
-  app_name              : "AGALP",
-  app_price             : "Free",
-  app_description       : "Automatically generate GatsbyJS app landing pages.",
-  app_keywords          : ["automatic", "gatsbyjs", "app", "landing page"],
+const i18n = {
+  fr: {
+    APP_NAME: "Braderie Hossegor",
+    APP_DESCRIPTION: "Application mobile officielle de la Braderie d'Hossegor",
+    APP_PRICE: "Gratuit",
+    APP_KEYWORKDS: ["hossegor", "braderie", "app", "application", "mobile", "carte"],
+  },
+  en: {
+    APP_NAME: "Big Sales Hossegor",
+    APP_DESCRIPTION: "Official mobile application of Big Sales in Hossegor",
+    APP_PRICE: "Free",
+    APP_KEYWORKDS: ["hossegor", "big sales", "sales", "app", "application", "mobile", "map"],
+  },
+  es: {
+    APP_NAME: "Venta Hossegor",
+    APP_DESCRIPTION: "Aplicación móvil oficial de la Venta de Hossegor",
+    APP_PRICE: "Gratis",
+    APP_KEYWORKDS: ["hossegor", "venta", "app", "aplicación", "móvil", "mapa"],
+  }
+}
 
+const selected_lang = "fr"
+
+module.exports = {
+  selected_lang         : selected_lang,
+
+  // App Info
+  appstore_link         : "#",                                  // Enter App Store URL.
+  playstore_link        : "#",                                  // Enter Google Play Store URL.
+  google_analytics_ID   : "UA-150400134-1",                                        // Enter Google Analytics ID or ""
+  presskit_download_link: "#",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+  video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
+  app_url               : "https://braderie-hossegor.app",                            // Domain of your website without path_prefix.
+  path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
+  app_name              : i18n[selected_lang].APP_NAME,
+  app_price             : i18n[selected_lang].APP_PRICE,
+  app_description       : i18n[selected_lang].APP_DESCRIPTION,
+  app_keywords          : i18n[selected_lang].APP_KEYWORKDS,
+  app_store_img_name    : i18n[selected_lang].APP_STORE_IMG_NAME,
+  play_store_img_name   : i18n[selected_lang].PLAY_STORE_IMG_NAME,
+
+  // Site info
+  site_name             : i18n[selected_lang].APP_DESCRIPTION,
   // Personal Info
-  your_name              : "Imed Adel",
-  your_link              : "https://imedadel.me",
-  your_city              : "Sousse",
-  email_address          : "hello@imedadel.me",
-  linkedin_username      : null,
-  facebook_username      : null,
-  instagram_username     : "ed_adel",
-  twitter_username       : "Imed_Adel",
-  github_username        : "ImedAdel",
+  your_name              : "Web Coast Agency",
+  your_link              : "https://webcoastagency.com",
+  your_city              : "Bordeaux",
+  email_address          : "contact@webcoastagency.com",
+  linkedin_username      : "webcoastagency",
+  facebook_username      : "webcoastagency",
+  instagram_username     : "webcoastagency",
+  twitter_username       : null,
+  github_username        : "webcoastagency",
   youtube_username       : null,
 
   // Features List
@@ -80,21 +109,21 @@ module.exports = {
       fontawesome_icon_name: "info-circle",
     },
   ],
-  header_background             : "rgba(0, 0, 0, 0.1)",
-  topbar_title_color            : "#ffffff",
-  cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
-  device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
+  header_background             : "#ffffff",
+  topbar_title_color            : "#28225A",
+  cover_overlay_color_rgba      : "rgba(70, 123, 150, 0.6)",
+  device_color                  : "white",                          // Set to "black", "blue", "coral", "white", or "yellow"
   body_background_color         : "ffffff",
   primary_text_color            : "#000",
   content_width                 : "1170px",
-  font                          : `"Helvetica Neue", sans-serif`,
-  link_color                    : "#1d63ea",
+  font                          : `"Raleway"`,
+  link_color                    : "#28225A",
   app_title_color               : "#ffffff",
   app_price_color               : "#ffffff",
   app_description_color         : "#ffffff",
   feature_title_color           : "#000000",
   feature_text_color            : "#666666",
-  feature_icons_foreground_color: "#1d63ea",
+  feature_icons_foreground_color: "#28225A",
   feature_icons_background_color: "#e6e6e6",
   social_icons_foreground_color : "#666666",
   social_icons_background_color : "#e6e6e6",

@@ -4,9 +4,9 @@ const configs = require("./site-config")
 module.exports = {
   siteMetadata: {
     siteUrl: urljoin(configs.app_url, configs.path_prefix),
-    title: configs.app_name,
+    title: configs.site_name,
     description: configs.app_description,
-    author: configs.twitter_username,
+    author: configs.facebook_username,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,13 +23,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: configs.app_name,
-        short_name: configs.app_name,
+        name: configs.site_name,
+        short_name: configs.site_name,
         start_url: configs.path_prefix,
         background_color: configs.body_background_color,
         theme_color: configs.app_title_color,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {
