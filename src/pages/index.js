@@ -211,7 +211,7 @@ const IndexPage = ({ data, intl }) => (
 
               {configs.linkedin_username && (
                 <a
-                  href={`https://www.linkedin.com/in/${configs.linkedin_username}`}
+                  href={`https://www.linkedin.com/company/${configs.linkedin_username}`}
                   aria-label="LinkedIn"
                 >
                   <span className="fa-stack fa-1x">
