@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Automatic GatsbyJS App Landing Page
+  Braderie Hossegor Official App Landing Page
 </h1>
 <p align="center">
   Create and deploy an iOS app landing page on GitHub Pages and Netlify in a couple of minutes<br><br>
