@@ -41,9 +41,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
-        custom: {
-          families: ["Raleway", "Raleway-Black"],
-          urls: ["src/fonts/fonts.css"],
+        google: {
+          families: ["Raleway"],
         },
       },
     },
