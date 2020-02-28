@@ -114,7 +114,7 @@ module.exports = {
   topbar_title_color            : "#28225A",
   cover_overlay_color_rgba      : "rgba(70, 123, 150, 0.6)",
   device_color                  : "white",                          // Set to "black", "blue", "coral", "white", or "yellow"
-  body_background_color         : "ffffff",
+  body_background_color         : "#ffffff",
   primary_text_color            : "#000",
   content_width                 : "1170px",
   font                          : `"Raleway"`,
