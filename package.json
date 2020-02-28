@@ -1,8 +1,8 @@
 {
-  "name": "automatic-gatsbyjs-app-landing-page",
-  "description": "Automatically generate iOS app landing page using GatsbyJS",
+  "name": "braderie-hossegor-landing-page",
+  "description": "Braderie Hossegor Official App Landing Page",
   "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
+  "author": "Anthony Lasserre <lasserre.anthony@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.27",
