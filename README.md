@@ -8,13 +8,10 @@
   Braderie Hossegor Official App Landing Page
 </h1>
 <p align="center">
-  Create and deploy an iOS app landing page on GitHub Pages and Netlify in a couple of minutes<br><br>
+  Official mobile application of Big Sales in Hossegor. Localize on the map and get all shops news for the event.<br><br>
   <img alt="GitHub" src="https://img.shields.io/github/license/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
+  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/eb671122-61af-4e3b-a099-fc417b2df20b/deploy-status">
 </p>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eb671122-61af-4e3b-a099-fc417b2df20b/deploy-status)](https://app.netlify.com/sites/braderie-hossegor-app/deploys)
 
 ## Credits
 - Based on [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) by [Emil Baehr](https://emilbaehr.com/)
