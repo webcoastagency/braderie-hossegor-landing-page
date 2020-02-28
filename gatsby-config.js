@@ -38,6 +38,14 @@ module.exports = {
         trackingId: configs.google_analytics_ID
       }
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Raleway"],
+        },
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
