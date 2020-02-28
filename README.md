@@ -1,7 +1,7 @@
 
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://braderie-hossegor.app/">
+    <img alt="Braderie Hossegor App" src="https://braderie-hossegor.app/icons/icon-512x512.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -14,39 +14,7 @@
   <img alt="GitHub forks" src="https://img.shields.io/github/forks/ImedAdel/automatic-gatsbyjs-app-landing-page.svg">
 </p>
 
-
-![Automatic GatsbyJS App Landing Page](https://raw.githubusercontent.com/ImedAdel/Mac-Arabic-Keyboard-for-Windows/master/68747470733a2f2f656d696c62616568722e636f6d2f66696c65732f6a6179736f6e312e706e67.png)
-![Automatic GatsbyJS App Landing Page](https://raw.githubusercontent.com/ImedAdel/Mac-Arabic-Keyboard-for-Windows/master/68747470733a2f2f656d696c62616568722e636f6d2f66696c65732f736c6f72312e706e67.png)
-
-----
-
-🔧 Fork this repo
-
-📲 Upload video preview or screenshot
-
-🎨 Customise site in `site-config.js` (no HTML/CSS)
-
-✅ Deploy to Netlify!
-
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ImedAdel/automatic-gatsbyjs-app-landing-page)
-
-----
-<p align="center">
-  <a href="https://jamstack.studio">
-    <img alt="Jamstack Studio" src="https://raw.githubusercontent.com/ImedAdel/media/master/jamstack.studio_(Laptop%20with%20HiDPI%20screen).png" />
-  </a>
-</p>
-
-----
-
-Or you can use this repo as a Gatsby Starter
-``
-gatsby new YourProjectName https://github.com/ImedAdel/automatic-gatsbyjs-app-landing-page
-npm run develop # or gatsby develop
-``
-
-Then, configure `site-config.js`, run `npm run build`, and deploy the public repository to GitHub 🎉.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb671122-61af-4e3b-a099-fc417b2df20b/deploy-status)](https://app.netlify.com/sites/braderie-hossegor-app/deploys)
 
 ## Credits
 - Based on [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) by [Emil Baehr](https://emilbaehr.com/)
@@ -54,7 +22,7 @@ Then, configure `site-config.js`, run `npm run build`, and deploy the public rep
 - Uses [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
 ## Author
-[Imed Adel](https://github.com/ImedAdel)
+[Anthony Lasserre](https://github.com/anthlasserre)
 
 ## License
 [MIT](LICENSE)
