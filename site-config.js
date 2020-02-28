@@ -19,7 +19,8 @@ const i18n = {
   }
 }
 
-const selected_lang = "fr"
+const selected_lang = process.env.LANGUAGE || "fr"
+console.log("LANG", selected_lang)
 
 module.exports = {
   selected_lang         : selected_lang,
