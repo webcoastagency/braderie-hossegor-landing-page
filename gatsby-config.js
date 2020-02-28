@@ -46,6 +46,19 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`fr`, `en`, `es`],
+        // language file path
+        defaultLanguage: `fr`,
+        // option to redirect to `/ko` when connecting `/`
+        redirect: true,
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,

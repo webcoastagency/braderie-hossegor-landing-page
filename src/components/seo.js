@@ -9,15 +9,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { injectIntl } from "gatsby-plugin-intl"
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ lang, meta, intl }) {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
-            title
-            description
             author
           }
         }
@@ -25,7 +24,9 @@ function SEO({ description, lang, meta, keywords, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const title = intl.formatMessage({id: "APP_NAME"})
+  const metaDescription = intl.formatMessage({id: "APP_DESCRIPTION"})
+  const keywords = intl.formatMessage({id: "APP_KEYWORDS"})
 
   return (
     <Helmet
@@ -33,7 +34,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={site.siteMetadata.title}
+      titleTemplate={metaDescription}
       meta={[
         {
           name: `description`,
@@ -72,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           keywords.length > 0
             ? {
                 name: `keywords`,
-                content: keywords.join(`, `),
+                content: keywords,
               }
             : []
         )
@@ -91,8 +92,8 @@ SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
+  // keywords: PropTypes.arrayOf(PropTypes.string),
+  // title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default injectIntl(SEO)

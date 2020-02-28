@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { injectIntl } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,11 +10,11 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 
 import configs from "../../site-config"
 
-const IndexPage = ({ data }) => (
+const IndexPage = ({ data, intl }) => (
   <Layout>
     <SEO
-      title={configs.site_name}
-      keywords={configs.app_keywords}
+      title={intl.formatMessage({id: "APP_DESCRIPTION"})}
+      keywords={intl.formatMessage({id: "APP_KEYWORDS"})}
     />
 
     <div
@@ -45,7 +46,7 @@ const IndexPage = ({ data }) => (
                   className="headerIcon"
                 />
               </div>
-              <p className="headerName">{configs.app_name}</p>
+              <p className="headerName">{intl.formatMessage({id: "APP_NAME"})}</p>
             </div>
             <nav>
               <ul>
@@ -135,11 +136,11 @@ const IndexPage = ({ data }) => (
               />
             </div>
             <div className="appNamePriceContainer">
-              <h1 className="appName">{configs.app_name}</h1>
-              <h2 className="appPrice">{configs.app_price}</h2>
+              <h1 className="appName">{intl.formatMessage({id: "APP_NAME"})}</h1>
+              <h2 className="appPrice">{intl.formatMessage({id: "APP_PRICE"})}</h2>
             </div>
             <div className="appDescriptionContainer">
-              <p className="appDescription">{configs.app_description}</p>
+              <p className="appDescription">{intl.formatMessage({id: "APP_DESCRIPTION"})}</p>
             </div>
             <div className="downloadButtonsContainer">
               {configs.playstore_link && (
@@ -261,7 +262,7 @@ const IndexPage = ({ data }) => (
   </Layout>
 )
 
-export default IndexPage
+export default injectIntl(IndexPage)
 
 export const query = graphql`
   query {

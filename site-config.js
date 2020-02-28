@@ -1,30 +1,4 @@
-const i18n = {
-  fr: {
-    APP_NAME: "Braderie Hossegor",
-    APP_DESCRIPTION: "Application mobile officielle de la Braderie d'Hossegor",
-    APP_PRICE: "Gratuit",
-    APP_KEYWORKDS: ["hossegor", "braderie", "app", "application", "mobile", "carte"],
-  },
-  en: {
-    APP_NAME: "Big Sales Hossegor",
-    APP_DESCRIPTION: "Official mobile application of Big Sales in Hossegor",
-    APP_PRICE: "Free",
-    APP_KEYWORKDS: ["hossegor", "big sales", "sales", "app", "application", "mobile", "map"],
-  },
-  es: {
-    APP_NAME: "Venta Hossegor",
-    APP_DESCRIPTION: "Aplicación móvil oficial de la Venta de Hossegor",
-    APP_PRICE: "Gratis",
-    APP_KEYWORKDS: ["hossegor", "venta", "app", "aplicación", "móvil", "mapa"],
-  }
-}
-
-const selected_lang = process.env.LANGUAGE || "fr"
-console.log("LANG", selected_lang)
-
 module.exports = {
-  selected_lang         : selected_lang,
-
   // App Info
   appstore_link         : "#",                                  // Enter App Store URL.
   playstore_link        : "#",                                  // Enter Google Play Store URL.
@@ -33,15 +7,8 @@ module.exports = {
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
   app_url               : "https://braderie-hossegor.app",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
-  app_name              : i18n[selected_lang].APP_NAME,
-  app_price             : i18n[selected_lang].APP_PRICE,
-  app_description       : i18n[selected_lang].APP_DESCRIPTION,
-  app_keywords          : i18n[selected_lang].APP_KEYWORKDS,
-  app_store_img_name    : i18n[selected_lang].APP_STORE_IMG_NAME,
-  play_store_img_name   : i18n[selected_lang].PLAY_STORE_IMG_NAME,
+  // Other settings in src/intl folder
 
-  // Site info
-  site_name             : i18n[selected_lang].APP_DESCRIPTION,
   // Personal Info
   your_name              : "Web Coast Agency",
   your_link              : "https://webcoastagency.com",
