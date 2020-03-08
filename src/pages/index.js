@@ -52,7 +52,7 @@ const IndexPage = ({ data, intl }) => (
               <ul>
                 {configs.presskit_download_link && (
                   <li>
-                    <a href={configs.presskit_download_link}>Press Kit</a>
+                    <a href={configs.presskit_download_link}>Télécharger</a>
                   </li>
                 )}
               </ul>
@@ -162,8 +162,11 @@ const IndexPage = ({ data, intl }) => (
             </div>
           </div>
           <div className="features">
-            {configs.features.map((feature, index) => {
-              if (feature.title) {
+            {configs.features.map((featureId, index) => {
+              const featureTitle = intl.formatMessage({ id: featureId + "_TITLE" })
+              const featureDescription = intl.formatMessage({ id: featureId + "_DESCRIPTION" })
+              const featureIcon = intl.formatMessage({ id: featureId + "_ICON" })
+              if (featureTitle) {
                 return (
                   <div key={index} className="feature">
                     <div>
@@ -171,14 +174,14 @@ const IndexPage = ({ data, intl }) => (
                         <i className="iconBack fas fa-circle fa-stack-2x" />
                         <i
                           className={`iconTop fas fa-${
-                            feature.fontawesome_icon_name
+                            featureIcon
                           } fa-stack-1x`}
                         />
                       </span>
                     </div>
                     <div className="featureText">
-                      <h3>{feature.title}</h3>
-                      <p>{feature.description}</p>
+                      <h3>{featureTitle}</h3>
+                      <p>{featureDescription}</p>
                     </div>
                   </div>
                 )
@@ -188,13 +191,13 @@ const IndexPage = ({ data, intl }) => (
           </div>
           <footer>
             <p className="footerText">
-              Made by{" "}
+              {intl.formatMessage({ id: "MADE_BY"})}{" "}
               {configs.your_link ? (
                 <a href={configs.your_link}>{configs.your_name}</a>
               ) : (
                 `${configs.your_name}`
               )}
-              {configs.your_city && ` in ${configs.your_city}`}
+              {configs.your_city && ` ${intl.formatMessage({ id: "AT"})} ${configs.your_city}`}
             </p>
             <div className="footerIcons">
               {configs.facebook_username && (
