@@ -1,32 +1,32 @@
 {
-    "APP_NAME": "Big Sales Hossegor",
-    "APP_DESCRIPTION": "Official mobile application of Big Sales in Hossegor",
-    "APP_PRICE": "Free",
-    "APP_KEYWORDS": "hossegor, big sales, sales, app, application, mobile, map",
-    "MADE_BY": "Hacer con amor por",
-    "AT": "en",
+  "APP_NAME": "Big Sales Hossegor",
+  "APP_DESCRIPTION": "Official mobile application of Big Sales in Hossegor",
+  "APP_PRICE": "Free",
+  "APP_KEYWORDS": "hossegor, big sales, sales, app, application, mobile, map",
+  "MADE_BY": "Hacer con amor por",
+  "AT": "en",
 
-    "GEOLOCATION_TITLE": "Geolocation",
-    "GEOLOCATION_DESCRIPTION": "Find where you are at any time during the event.",
-    "GEOLOCATION_ICON": "map-marked-alt",
+  "GEOLOCATION_TITLE": "Geolocation",
+  "GEOLOCATION_DESCRIPTION": "Find where you are at any time during the event.",
+  "GEOLOCATION_ICON": "map-marked-alt",
 
-    "NOTIFICATION_TITLE": "Notifications",
-    "NOTIFICATION_DESCRIPTION": "Receive promotions or news notifications from your favorite stores.",
-    "NOTIFICATION_ICON": "bell",
+  "NOTIFICATION_TITLE": "Notifications",
+  "NOTIFICATION_DESCRIPTION": "Receive promotions or news notifications from your favorite stores.",
+  "NOTIFICATION_ICON": "bell",
 
-    "WAITING_TITLE": "Waiting Line",
-    "WAITING_DESCRIPTION": "Check out the queue for the biggest stores.",
-    "WAITING_ICON": "rss",
+  "WAITING_TITLE": "Waiting Line",
+  "WAITING_DESCRIPTION": "Check out the queue for the biggest stores.",
+  "WAITING_ICON": "rss",
 
-    "DISCOUNT_TITLE": "Promotions",
-    "DISCOUNT_DESCRIPTION": "Find out about current promotions from your favorite stores to take advantage of them as soon as possible.",
-    "DISCOUNT_ICON": "tags",
+  "DISCOUNT_TITLE": "Promotions",
+  "DISCOUNT_DESCRIPTION": "Find out about current promotions from your favorite stores to take advantage of them as soon as possible.",
+  "DISCOUNT_ICON": "tags",
 
-    "FOOD_TITLE": "Restaurants - Bars & Cafes",
-    "FOOD_DESCRIPTION": "Eat in specific locations located on the Braderie map.",
-    "FOOD_ICON": "utensils",
+  "FOOD_TITLE": "Restaurants - Bars & Cafes",
+  "FOOD_DESCRIPTION": "Eat in specific locations located on the Braderie map.",
+  "FOOD_ICON": "utensils",
 
-    "PARKING_TITLE": "Car Parks Location",
-    "PARKING_DESCRIPTION": "You are lost at the end of your purchases? Thanks to the application you can find your parking lot.",
-    "PARKING_ICON": "map-pin"
+  "PARKING_TITLE": "Car Parks Location",
+  "PARKING_DESCRIPTION": "You are lost at the end of your purchases? Thanks to the application you can find your parking lot.",
+  "PARKING_ICON": "map-pin"
 }

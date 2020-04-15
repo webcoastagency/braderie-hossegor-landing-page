@@ -1,32 +1,32 @@
 {
-    "APP_NAME": "Venta Hossegor",
-    "APP_DESCRIPTION": "Aplicación móvil oficial de la Venta de Hossegor",
-    "APP_PRICE": "Gratis",
-    "APP_KEYWORDS": "hossegor, venta, app, aplicación, móvil, mapa",
-    "MADE_BY": "Made with love by",
-    "AT": "in",
+  "APP_NAME": "Venta Hossegor",
+  "APP_DESCRIPTION": "Aplicación móvil oficial de la Venta de Hossegor",
+  "APP_PRICE": "Gratis",
+  "APP_KEYWORDS": "hossegor, venta, app, aplicación, móvil, mapa",
+  "MADE_BY": "Made with love by",
+  "AT": "in",
 
-    "GEOLOCATION_TITLE": "Geolocalización",
-    "GEOLOCATION_DESCRIPTION": "Encuentra dónde estás en cualquier momento durante el evento",
-    "GEOLOCATION_ICON": "map-marked-alt",
+  "GEOLOCATION_TITLE": "Geolocalización",
+  "GEOLOCATION_DESCRIPTION": "Encuentra dónde estás en cualquier momento durante el evento",
+  "GEOLOCATION_ICON": "map-marked-alt",
 
-    "NOTIFICATION_TITLE": "Notificaciones",
-    "NOTIFICATION_DESCRIPTION": "Reciba promociones o notificaciones de noticias de sus tiendas favoritas",
-    "NOTIFICATION_ICON": "bell",
+  "NOTIFICATION_TITLE": "Notificaciones",
+  "NOTIFICATION_DESCRIPTION": "Reciba promociones o notificaciones de noticias de sus tiendas favoritas",
+  "NOTIFICATION_ICON": "bell",
 
-    "WAITING_TITLE": "Cola",
-    "WAITING_DESCRIPTION": "Echa un vistazo a la cola de las tiendas más grandes",
-    "WAITING_ICON": "rss",
+  "WAITING_TITLE": "Cola",
+  "WAITING_DESCRIPTION": "Echa un vistazo a la cola de las tiendas más grandes",
+  "WAITING_ICON": "rss",
 
-    "DISCOUNT_TITLE": "Promociones",
-    "DISCOUNT_DESCRIPTION": "Conozca las promociones actuales de sus tiendas favoritas para aprovecharlas lo antes posible",
-    "DISCOUNT_ICON": "tags",
+  "DISCOUNT_TITLE": "Promociones",
+  "DISCOUNT_DESCRIPTION": "Conozca las promociones actuales de sus tiendas favoritas para aprovecharlas lo antes posible",
+  "DISCOUNT_ICON": "tags",
 
-    "FOOD_TITLE": "Restaurantes, bares y cafeterías",
-    "FOOD_DESCRIPTION": "Come en ubicaciones específicas ubicadas en el mapa de Braderie",
-    "FOOD_ICON": "utensils",
+  "FOOD_TITLE": "Restaurantes, bares y cafeterías",
+  "FOOD_DESCRIPTION": "Come en ubicaciones específicas ubicadas en el mapa de Braderie",
+  "FOOD_ICON": "utensils",
 
-    "PARKING_TITLE": "Ubicación de estacionamientos",
-    "PARKING_DESCRIPTION": "¿Se perdió al final de sus compras? Gracias a la aplicación, puede encontrar su estacionamiento",
-    "PARKING_ICON": "map-pin"
+  "PARKING_TITLE": "Ubicación de estacionamientos",
+  "PARKING_DESCRIPTION": "¿Se perdió al final de sus compras? Gracias a la aplicación, puede encontrar su estacionamiento",
+  "PARKING_ICON": "map-pin"
 }
